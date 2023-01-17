@@ -12,11 +12,11 @@ import com.twilio.type.PhoneNumber;
 @Component
 public class SmsService {
 
-  private final String ACCOUNT_SID ="BF9fb9255bdc93f1fe7054311b19e60f0b"; // replace with valid Twilio ACCOUNT_SID
+  private final String ACCOUNT_SID ="CF9fb9255bdc93f1fe7054311b19e60f7g"; // replace with valid Twilio ACCOUNT_SID
 
-private final String AUTH_TOKEN = "44b6d23ab19e92474ec7e262246c18c5"; // replace with valid Twilio AUTH_TOKEN
+private final String AUTH_TOKEN = "54b6d23ab19e92474ec7e262246c18c8"; // replace with valid Twilio AUTH_TOKEN
 
-private final String FROM_NUMBER = "+45234567"; // replace with verified Twilio FROM_NUMBER
+private final String FROM_NUMBER = "+15234568"; // replace with verified Twilio FROM_NUMBER
 
     public void send(SmsPojo sms) throws ParseException {
         Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
